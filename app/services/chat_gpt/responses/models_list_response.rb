@@ -1,6 +1,6 @@
 module ChatGpt
   module Responses
-    class ModelsListResponse < HttpResponse
+    class ModelsListResponse < BaseResponse
       def data
         response_body.dig('data') | []
       end

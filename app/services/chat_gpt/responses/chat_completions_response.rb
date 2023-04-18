@@ -1,6 +1,6 @@
 module ChatGpt
   module Responses
-    class ChatCompletionsResponse < HttpResponse
+    class ChatCompletionsResponse < BaseResponse
       def id
         response_body.dig('id')
       end
