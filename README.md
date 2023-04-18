@@ -67,3 +67,7 @@ response = service.models_list
 
 In the above case we can see that the request failed, that is because we don't have available credits in Open IA.
 
+Support:
+* You can see your api keys here: https://platform.openai.com/account/api-keys
+
+* And you can see Open AI API documentation at: https://platform.openai.com/docs/api-reference/introduction
